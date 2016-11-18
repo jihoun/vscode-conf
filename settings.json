@@ -15,7 +15,7 @@
     // Controls whether the editor should render whitespace characters
     "editor.renderWhitespace": "all",
     // Zoom the font of the editor when using mouse wheel and holding Ctrl
-    "editor.mouseWheelZoom": true,
+    "editor.mouseWheelZoom": false,
     // Controls whether the editor should render indent guides
     "editor.renderIndentGuides": true,
 //Files
@@ -38,5 +38,6 @@
     "typescript.check.tscVersion": false,
 // Extensions
     // Automatically update extensions
-    "extensions.autoUpdate": true
+    "extensions.autoUpdate": true,
+    "window.zoomLevel": 0
 }
