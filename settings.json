@@ -25,19 +25,19 @@
         "**/node_modules/**": true,
         "**/vendor/**": true
     },
-//Javascript
-    // Use '!==' and '===' instead of '!=' and '=='.
-    "javascript.validate.lint.comparisonOperatorsNotStrict": "warning",
-    // Don't spare curly brackets.
-    "javascript.validate.lint.curlyBracketsMustNotBeOmitted": "ignore",
 //PHPMD
     "phpmd.enabled": true,
-    "phpmd.validate.executablePath": "/Users/nicolas/.composer/vendor/bin/phpmd",
+    "phpmd.validate.executablePath": "~/.composer/vendor/bin/phpmd",
     "phpmd.validate.rulesets": "cleancode,codesize,controversial,design,naming,unusedcode",
 //Typescript
     "typescript.check.tscVersion": false,
 // Extensions
     // Automatically update extensions
     "extensions.autoUpdate": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": true,
+// composer
+    "composer.executablePath": "/usr/local/bin/composer",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "material-icon-theme"
 }
