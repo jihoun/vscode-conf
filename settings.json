@@ -18,6 +18,8 @@
     "editor.mouseWheelZoom": false,
     // Controls whether the editor should render indent guides
     "editor.renderIndentGuides": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
 //Files
     "files.trimTrailingWhitespace": true,
     "files.watcherExclude": {
@@ -39,5 +41,12 @@
 // Extensions
     // Automatically update extensions
     "extensions.autoUpdate": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+
+
+    "terminal.integrated.shell.osx": "/bin/zsh",
+
+    "phpcs.enable": false,
+    "workbench.welcome.enabled": true,
+    "composer.executablePath": "/usr/local/bin/composer"
 }
