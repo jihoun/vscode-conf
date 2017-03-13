@@ -27,14 +27,9 @@
         "**/node_modules/**": true,
         "**/vendor/**": true
     },
-//Javascript
-    // Use '!==' and '===' instead of '!=' and '=='.
-    "javascript.validate.lint.comparisonOperatorsNotStrict": "warning",
-    // Don't spare curly brackets.
-    "javascript.validate.lint.curlyBracketsMustNotBeOmitted": "ignore",
 //PHPMD
     "phpmd.enabled": true,
-    "phpmd.validate.executablePath": "/Users/nicolas/.composer/vendor/bin/phpmd",
+    "phpmd.validate.executablePath": "~/.composer/vendor/bin/phpmd",
     "phpmd.validate.rulesets": "cleancode,codesize,controversial,design,naming,unusedcode",
 //Typescript
     "typescript.check.tscVersion": false,
@@ -43,10 +38,13 @@
     "extensions.autoUpdate": true,
     "window.zoomLevel": 0,
 
-
     "terminal.integrated.shell.osx": "/bin/zsh",
 
     "phpcs.enable": false,
     "workbench.welcome.enabled": true,
-    "composer.executablePath": "/usr/local/bin/composer"
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "material-icon-theme",
+// composer
+    "composer.executablePath": "/usr/local/bin/composer",
+    "workbench.colorTheme": "Visual Studio Dark"
 }
