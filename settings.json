@@ -46,5 +46,5 @@
     "workbench.iconTheme": "material-icon-theme",
 // composer
     "composer.executablePath": "/usr/local/bin/composer",
-    "workbench.colorTheme": "Visual Studio Dark"
+    "spell.StopAsking": true
 }
